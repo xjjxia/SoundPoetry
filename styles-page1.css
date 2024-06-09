@@ -28,22 +28,20 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    filter: brightness(0.5); /* 调整亮度 */
+    border: none;
     z-index: 0;
 }
 
 .text-container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 10%;
+    text-align: left; /* 左对齐 */
     z-index: 1;
     color: #fff;
     font-family: 'Playfair Display', serif; /* 使用更具艺术性的字体 */
-    text-shadow: 2px 2px 4px rgba(0.8,0.4,0.4, 0.2); /* 文本阴影 */
-    background: rgba(0, 0, 0, 0.0); /* 半透明背景 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 文本阴影 */
+    background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
     padding: 20px;
     border-radius: 15px; /* 圆角 */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* 盒子阴影 */
@@ -66,20 +64,20 @@ body, html {
 }
 
 .line1, .line2 {
-    font-size: 128px; /* 增大字体大小 */
+    font-size: 48px; /* 增大字体大小 */
     font-weight: bold;
     letter-spacing: 2px;
     margin-top: 10px; /* 行间距 */
 }
 
 .line1 {
-    background: linear-gradient(45deg, #666666, #dddddd); /* 渐变文字背景 */
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* 渐变文字背景 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}   
+}
 
 .line2 {
-    background: linear-gradient(45deg, #333333, #aaaaaa); /* 渐变文字背景 */
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* 渐变文字背景 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
